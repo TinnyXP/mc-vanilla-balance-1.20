@@ -1,0 +1,1 @@
+tellraw @a ["",{"text":"\"TINNYP_ Balance item\"","bold":true,"color":"gray"},{"text":" Datapack has been loaded!","color":"aqua"}]

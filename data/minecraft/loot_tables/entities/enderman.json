@@ -1,0 +1,66 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:ender_pearl",
+                    "conditions": [
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:emerald",
+                    "conditions": [
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.15
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:emerald",
+                    "conditions": [
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.15
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:ender_pearl",
+                    "conditions": [
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.1
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.15
+                }
+            ]
+        }
+    ]
+}
